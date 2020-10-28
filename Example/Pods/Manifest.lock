@@ -1,0 +1,112 @@
+PODS:
+  - IQKeyboardManager (6.5.6)
+  - LZUISDK (0.1.0):
+    - IQKeyboardManager
+    - LZUISDK/DB (= 0.1.0)
+    - LZUISDK/LSAuthorization (= 0.1.0)
+    - LZUISDK/LSBluetooth (= 0.1.0)
+    - LZUISDK/LSBluetoothUI_iOS (= 0.1.0)
+    - LZUISDK/LSDeviceManagerFramework (= 0.1.0)
+    - LZUISDK/NetWork (= 0.1.0)
+    - Masonry
+    - MBProgressHUD
+    - Protobuf
+    - SDWebImage
+    - WCDB
+    - YYModel
+  - LZUISDK/DB (0.1.0):
+    - IQKeyboardManager
+    - Masonry
+    - MBProgressHUD
+    - Protobuf
+    - SDWebImage
+    - WCDB
+    - YYModel
+  - LZUISDK/LSAuthorization (0.1.0):
+    - IQKeyboardManager
+    - Masonry
+    - MBProgressHUD
+    - Protobuf
+    - SDWebImage
+    - WCDB
+    - YYModel
+  - LZUISDK/LSBluetooth (0.1.0):
+    - IQKeyboardManager
+    - Masonry
+    - MBProgressHUD
+    - Protobuf
+    - SDWebImage
+    - WCDB
+    - YYModel
+  - LZUISDK/LSBluetoothUI_iOS (0.1.0):
+    - IQKeyboardManager
+    - Masonry
+    - MBProgressHUD
+    - Protobuf
+    - SDWebImage
+    - WCDB
+    - YYModel
+  - LZUISDK/LSDeviceManagerFramework (0.1.0):
+    - IQKeyboardManager
+    - Masonry
+    - MBProgressHUD
+    - Protobuf
+    - SDWebImage
+    - WCDB
+    - YYModel
+  - LZUISDK/NetWork (0.1.0):
+    - IQKeyboardManager
+    - Masonry
+    - MBProgressHUD
+    - Protobuf
+    - SDWebImage
+    - WCDB
+    - YYModel
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.2.0)
+  - Protobuf (3.13.0)
+  - SDWebImage (5.9.4):
+    - SDWebImage/Core (= 5.9.4)
+  - SDWebImage/Core (5.9.4)
+  - SQLiteRepairKit (1.2.2):
+    - WCDBOptimizedSQLCipher (~> 1.2.0)
+  - WCDB (1.0.7.5):
+    - SQLiteRepairKit (~> 1.2.0)
+    - WCDBOptimizedSQLCipher (~> 1.2.0)
+  - WCDBOptimizedSQLCipher (1.2.1)
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - LZUISDK (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - IQKeyboardManager
+    - Masonry
+    - MBProgressHUD
+    - Protobuf
+    - SDWebImage
+    - SQLiteRepairKit
+    - WCDB
+    - WCDBOptimizedSQLCipher
+    - YYModel
+
+EXTERNAL SOURCES:
+  LZUISDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  IQKeyboardManager: 2a6e97afdafc7becf0cb17a9a8d795e3a980717f
+  LZUISDK: 556d86b516aae4619c23c6f6b7214458f6beeb98
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  Protobuf: 3dac39b34a08151c6d949560efe3f86134a3f748
+  SDWebImage: b69257f4ab14e9b6a2ef53e910fdf914d8f757c1
+  SQLiteRepairKit: 35aaae5a8838adb85f5b1eb4d796055be6060a4b
+  WCDB: 8e90babdeb7784c569353a4bd22a66c0a175a882
+  WCDBOptimizedSQLCipher: baf44493b0c7a3d49e97bc5b64a3856f6428ddd1
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: 7d84f6c75009b5627153edaedd4c39c04ef07169
+
+COCOAPODS: 1.8.4

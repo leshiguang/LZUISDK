@@ -1,0 +1,83 @@
+{
+  "name": "LZUISDK",
+  "version": "0.1.0",
+  "summary": "A short description of LZUISDK.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/1142112809/LZUISDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "1142112809": "alex.wu@dianping.com"
+  },
+  "source": {
+    "git": "https://github.com/1142112809/LZUISDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LZUISDK/Classes/**/*",
+  "dependencies": {
+    "Protobuf": [
+
+    ],
+    "WCDB": [
+
+    ],
+    "IQKeyboardManager": [
+
+    ],
+    "Masonry": [
+
+    ],
+    "MBProgressHUD": [
+
+    ],
+    "SDWebImage": [
+
+    ],
+    "YYModel": [
+
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "NetWork",
+      "ios": {
+        "vendored_frameworks": "LZUISDK/SDK/LSNetwork_iOS.framework"
+      }
+    },
+    {
+      "name": "DB",
+      "ios": {
+        "vendored_frameworks": "LZUISDK/SDK/LSNDBManager.framework"
+      }
+    },
+    {
+      "name": "LSDeviceManagerFramework",
+      "ios": {
+        "vendored_frameworks": "LZUISDK/SDK/LSDeviceManagerFramework.framework"
+      }
+    },
+    {
+      "name": "LSBluetoothUI_iOS",
+      "ios": {
+        "vendored_frameworks": "LZUISDK/SDK/LSBluetoothUI_iOS.framework"
+      }
+    },
+    {
+      "name": "LSBluetooth",
+      "ios": {
+        "vendored_frameworks": "LZUISDK/SDK/LSBluetooth.framework"
+      }
+    },
+    {
+      "name": "LSAuthorization",
+      "ios": {
+        "vendored_frameworks": "LZUISDK/SDK/LSAuthorization.framework"
+      }
+    }
+  ]
+}

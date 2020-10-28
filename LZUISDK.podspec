@@ -21,17 +21,52 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/1142112809/LZUISDK'
+  s.homepage         = 'https://github.com/leshiguang/LZUISDK'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '1142112809' => 'alex.wu@dianping.com' }
-  s.source           = { :git => 'https://github.com/1142112809/LZUISDK.git', :tag => s.version.to_s }
+  s.author           = { 'wuyong' => 'yong.wu@lifesense.com' }
+  s.source           = { :git => 'https://github.com/leshiguang/LZUISDK.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'LZUISDK/Classes/**/*'
+  s.subspec 'NetWork' do |network|
+      network.ios.vendored_framework = 'LZUISDK/SDK/LSNetwork_iOS.framework'
+  end
   
+  s.subspec 'DB' do |db|
+      db.ios.vendored_framework = 'LZUISDK/SDK/LSNDBManager.framework'
+  end
+  
+  s.subspec 'LSDeviceManagerFramework' do |dm|
+      dm.ios.vendored_framework = 'LZUISDK/SDK/LSDeviceManagerFramework.framework'
+  end
+  
+  s.subspec 'LSBluetoothUI_iOS' do |ui|
+      ui.ios.vendored_framework = 'LZUISDK/SDK/LSBluetoothUI_iOS.framework'
+  end
+  
+  s.subspec 'LSBluetooth' do |bluetooth|
+      bluetooth.ios.vendored_framework = 'LZUISDK/SDK/LSBluetooth.framework'
+  end
+  
+  s.subspec 'LSAuthorization' do |authorization|
+      authorization.ios.vendored_frameworks = 'LZUISDK/SDK/LSAuthorization.framework'
+  end
+  
+  s.dependency 'Protobuf'
+  s.dependency 'WCDB'
+  s.dependency 'IQKeyboardManager'
+  s.dependency 'Masonry'
+  s.dependency 'MBProgressHUD'
+  s.dependency 'SDWebImage'
+  s.dependency 'YYModel'
+
+
+
+
+#  s.vendored_frameworks = 'LZUISDK/SDK/LSNetwork_iOS.framework','LZUISDK/SDK/LSNDBManager.framework','LZUISDK/SDK/LSDeviceManagerFramework.framework','LZUISDK/SDK/LSBluetoothUI_iOS.framework','LZUISDK/SDK/LSBluetooth.framework','LZUISDK/SDK/LSAuthorizationFramework.framework'
   # s.resource_bundles = {
   #   'LZUISDK' => ['LZUISDK/Assets/*.png']
   # }
