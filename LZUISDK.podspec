@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LZUISDK'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A short description of LZUISDK.'
 
 # This description is used to generate tags and improve search results.
@@ -35,10 +35,6 @@ TODO: Add long description of the pod here.
       network.ios.vendored_framework = 'LZUISDK/SDK/LSNetwork_iOS.framework'
   end
   
-  s.subspec 'DB' do |db|
-      db.ios.vendored_framework = 'LZUISDK/SDK/LSNDBManager.framework'
-  end
-  
   s.subspec 'LSDeviceManagerFramework' do |dm|
       dm.ios.vendored_framework = 'LZUISDK/SDK/LSDeviceManagerFramework.framework'
   end
@@ -55,15 +51,12 @@ TODO: Add long description of the pod here.
       authorization.ios.vendored_frameworks = 'LZUISDK/SDK/LSAuthorization.framework'
   end
   
-  s.dependency 'Protobuf'
-  s.dependency 'WCDB'
+  
   s.dependency 'IQKeyboardManager'
   s.dependency 'Masonry'
   s.dependency 'MBProgressHUD'
   s.dependency 'SDWebImage'
   s.dependency 'YYModel'
-
-
 
 
 #  s.vendored_frameworks = 'LZUISDK/SDK/LSNetwork_iOS.framework','LZUISDK/SDK/LSNDBManager.framework','LZUISDK/SDK/LSDeviceManagerFramework.framework','LZUISDK/SDK/LSBluetoothUI_iOS.framework','LZUISDK/SDK/LSBluetooth.framework','LZUISDK/SDK/LSAuthorizationFramework.framework'

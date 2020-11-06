@@ -11,11 +11,7 @@
 @implementation LZAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-{
-    [[LSAuthorization sharedInstance] authorize:11 andSubscribe:1101 andThirdUserId:@"rer" callback:^(NSUInteger userId, NSString * _Nonnull accessToken) {
-        
-    }];
-    
+{    
     // Override point for customization after application launch.
     return YES;
 }

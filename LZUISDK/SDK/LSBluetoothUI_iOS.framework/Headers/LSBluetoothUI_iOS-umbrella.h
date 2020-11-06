@@ -12,7 +12,6 @@
 
 #import "LSBluetoothUIManager.h"
 #import "LSBluetoothUIConfig.h"
-#import "LSBluetoothUIManagerDelegate.h"
 
 FOUNDATION_EXPORT double LSBluetoothUI_iOSVersionNumber;
 FOUNDATION_EXPORT const unsigned char LSBluetoothUI_iOSVersionString[];
