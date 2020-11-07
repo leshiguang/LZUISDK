@@ -1,41 +1,41 @@
 PODS:
   - IQKeyboardManager (6.5.6)
-  - LZUISDK (0.1.0):
+  - LZUISDK (0.1.1):
     - IQKeyboardManager
-    - LZUISDK/LSAuthorization (= 0.1.0)
-    - LZUISDK/LSBluetooth (= 0.1.0)
-    - LZUISDK/LSBluetoothUI_iOS (= 0.1.0)
-    - LZUISDK/LSDeviceManagerFramework (= 0.1.0)
-    - LZUISDK/NetWork (= 0.1.0)
+    - LZUISDK/LSAuthorization (= 0.1.1)
+    - LZUISDK/LSBluetooth (= 0.1.1)
+    - LZUISDK/LSBluetoothUI_iOS (= 0.1.1)
+    - LZUISDK/LSDeviceManagerFramework (= 0.1.1)
+    - LZUISDK/NetWork (= 0.1.1)
     - Masonry
     - MBProgressHUD
     - SDWebImage
     - YYModel
-  - LZUISDK/LSAuthorization (0.1.0):
-    - IQKeyboardManager
-    - Masonry
-    - MBProgressHUD
-    - SDWebImage
-    - YYModel
-  - LZUISDK/LSBluetooth (0.1.0):
+  - LZUISDK/LSAuthorization (0.1.1):
     - IQKeyboardManager
     - Masonry
     - MBProgressHUD
     - SDWebImage
     - YYModel
-  - LZUISDK/LSBluetoothUI_iOS (0.1.0):
+  - LZUISDK/LSBluetooth (0.1.1):
     - IQKeyboardManager
     - Masonry
     - MBProgressHUD
     - SDWebImage
     - YYModel
-  - LZUISDK/LSDeviceManagerFramework (0.1.0):
+  - LZUISDK/LSBluetoothUI_iOS (0.1.1):
     - IQKeyboardManager
     - Masonry
     - MBProgressHUD
     - SDWebImage
     - YYModel
-  - LZUISDK/NetWork (0.1.0):
+  - LZUISDK/LSDeviceManagerFramework (0.1.1):
+    - IQKeyboardManager
+    - Masonry
+    - MBProgressHUD
+    - SDWebImage
+    - YYModel
+  - LZUISDK/NetWork (0.1.1):
     - IQKeyboardManager
     - Masonry
     - MBProgressHUD
@@ -65,7 +65,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   IQKeyboardManager: 2a6e97afdafc7becf0cb17a9a8d795e3a980717f
-  LZUISDK: a2f50fec91bf9e6e6333f4bdb2c165fa73fb867d
+  LZUISDK: 65e5fc1919020c1e5f8497a6f253018c427d64e5
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
   SDWebImage: b69257f4ab14e9b6a2ef53e910fdf914d8f757c1
