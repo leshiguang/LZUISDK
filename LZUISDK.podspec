@@ -17,6 +17,8 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
+#pod repo push leshiguang LZUISDK.podspec --allow-warnings --verbose
+
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
                        DESC
