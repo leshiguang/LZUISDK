@@ -174,9 +174,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// 自定义页面显示
 /// @param deviceId 设备Id
-/// @param content 手环显示的页面(显示的类型请看ScreenContentType)
+/// @param cfg 手环显示的页面(显示的类型请看ScreenContentType)
 /// @param completion 设置是否成功回调
-- (void)setScreenContent:(NSString *)deviceId content:(NSArray<ScreenContentSwitch *> *)content completion:(Completion)completion;
+- (void)setScreenContent:(NSString *)deviceId content:(ScreenContentCfg *)cfg completion:(Completion)completion;
 
 /// 获取自定义页面配置
 /// @param deviceId 设备Id

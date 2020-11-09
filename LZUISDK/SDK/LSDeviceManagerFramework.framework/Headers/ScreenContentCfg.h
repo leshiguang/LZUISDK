@@ -79,6 +79,6 @@ typedef enum : NSUInteger {
 @interface ScreenContentCfg : NSObject
 
 /// 自定义页面
-@property (nonatomic, strong) NSArray<NSDictionary *> *content;
+@property (nonatomic, strong) NSArray <ScreenContentSwitch *> *content;
 
 @end
