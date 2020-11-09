@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "LSAccountAuthorizeRequest.h"
 #import "LSAccountAuthorizeResponse.h"
 #import "LSAuthAccountService.h"
 #import "LSAuthorizationDelegate.h"
