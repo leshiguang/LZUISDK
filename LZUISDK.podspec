@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-#pod repo push leshiguang LZUISDK.podspec --allow-warnings --verbose
+#pod repo push leshiguang LZUISDK.podspec --allow-warnings --verbose --skip-import-validation
 
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
@@ -31,6 +31,8 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
+  
+  s.pod_target_xcconfig = { 'VALID_ARCHS[sdk=iphonesimulator*]' => '' }
 
   s.source_files = 'LZUISDK/Classes/**/*'
   s.subspec 'NetWork' do |network|
