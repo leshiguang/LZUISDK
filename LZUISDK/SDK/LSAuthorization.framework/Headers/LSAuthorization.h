@@ -58,6 +58,13 @@ typedef NS_ENUM(NSInteger, LSAccessCode) {
 /// @param callback 授权信息回调
 - (void)authorizeDevice:(NSString *)appKey appSecret:(NSString *)appSecret associatedId:(NSString *)associatedId callback:(nonnull void(^)(NSUInteger userId, NSString *accessToken))callback;
 
+/// 第三方账号授权登录 old
+/// @param tenantId 租户ID
+/// @param subscriptionId 订阅ID
+/// @param associatedId 第三方账号
+/// @param callback 授权信息
+- (void)authorize:(NSInteger)tenantId andSubscribe:(NSInteger)subscriptionId andThirdUserId:(nonnull NSString *)associatedId callback:(nonnull void(^)(NSUInteger userId, NSString *accessToken))callback;
+
 @end
 
 NS_ASSUME_NONNULL_END

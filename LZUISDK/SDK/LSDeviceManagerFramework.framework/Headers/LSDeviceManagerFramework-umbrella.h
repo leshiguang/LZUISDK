@@ -62,6 +62,7 @@
 #import "WiFiCfg.h"
 #import "BloodPressureReceiveDataDelegate.h"
 #import "LSDeviceManager+BloodPreasure.h"
+#import "lzReceiveDataManager.h"
 #import "lzReceiveDataSqlite.h"
 #import "lzReceiveDataSqliteModel.h"
 #import "BraceletReceiveDataDelegate.h"

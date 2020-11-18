@@ -5,26 +5,6 @@
 //  Created by wm on 2020/9/4.
 //
 
-//#import "LSWAppAppearanceConfigrationMacro.h"
-//#import "LSWAppColorConfigrationMacro.h"
-//#import "LSWAppFontConfigrationMacro.h"
-//#import "Device+LSWDeviceUtility.h"
-//#import "LSWConstants.h"
-//#import "NSString+LSAdditions.h"
-//#import "LSWUnitManager+Weight.h"
-//#import "UIColor+Hex.h"
-//#import "NSString+LSWAddition.h"
-//#import "TKAlertViewController.h"
-//#import "LSWAttributedUtil.h"
-//#import "ServerCommunicationManager.h"
-//#import "LSWRouter.h"
-//#import "LSWRouterDefine.h"
-//#import "LSWMacro.h"
-//#import "NSBundle+LSBluetoothUI.h"
-//#import "LSBluetoothUIConfig.h"
-//#import <LSDeviceManagerFramework/LSDeviceManager+BraceletSetting.h>
-//#import <LSDeviceManagerFramework/LSDeviceManager+ScalesSetting.h>
-
 typedef enum : NSUInteger {
     LSBluetoothResultTypeSusses, //成功
     LSBluetoothResultTypeFaile   //失败

@@ -63,10 +63,6 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (void)pairDevice:(LSEDeviceInfo *)deviceInfo;
 
-/**
- * 用户绑定手环校验码
- *
- */
 
 /// 用户绑定手环校验码
 /// @param code 校验码
@@ -82,15 +78,9 @@ NS_ASSUME_NONNULL_BEGIN
 - (Device *)getPairDevice:(LSDeviceInfo *)device;
 
 
-/**
- * 搜索设备,在结束配对流程后需要调用调用startDataReceiveService
- *
- */
-
 /// 搜索设备,在结束配对流程后需要调用调用startDataReceiveService
-/// @param productInfo 设备信息
-/// @param searchBlock 回调
-- (void)searchDevice:(LSEProductInfo *)productInfo searchBlock:(LSESearchBlock)searchBlock;
+/// @param searchBlock 设备信息回调
+- (void)searchDeviceBlock:(LSESearchBlock)searchBlock;
 
 /// 停止搜索设备
 /// @param stopSearchBlock 停止收缩回调

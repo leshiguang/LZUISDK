@@ -8,12 +8,13 @@
 
 #import <LSNetwork_iOS/LSNetworkingModule.h>
 #import "LSBaseSportData.h"
+#import "BraceletReceiveDataState.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface LSUploadRunRecordRequest : LSBaseRequest
 
-- (void)setRequestParameters:(NSArray<LSBaseSportData *> *)SportDataAry;
+- (void)setRequestParameters:(NSArray<LSBaseSportData *> *)SportDataAry dataType:(BraceletReceiveDataType)dataType;
 
 @end
 

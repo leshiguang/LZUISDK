@@ -10,8 +10,6 @@
 
 @interface SleepingData : BraceletReceiveData
 
-/// 原始数据唯一ID uuid
-@property (nonatomic, copy) NSString *id;
 /// 设备剩余多少条数据
 @property(nonatomic,assign)int restCount;
 /// 每次测量的时间偏移单位

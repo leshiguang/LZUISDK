@@ -18,6 +18,9 @@
   "platforms": {
     "ios": "8.0"
   },
+  "pod_target_xcconfig": {
+    "VALID_ARCHS[sdk=iphonesimulator*]": ""
+  },
   "source_files": "LZUISDK/Classes/**/*",
   "dependencies": {
     "IQKeyboardManager": [
@@ -34,6 +37,9 @@
     ],
     "YYModel": [
 
+    ],
+    "Logan": [
+      "~> 1.2.5"
     ]
   },
   "subspecs": [

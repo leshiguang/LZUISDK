@@ -37,6 +37,7 @@
 #import "LSBlePairingDelegate.h"
 #import "LSBluetoothStateChangeDelegate.h"
 #import "LSDeviceConnectDelegate.h"
+#import "LZLoganManager.h"
 #import "LogManager.h"
 #import "LSBleActionEvent.h"
 #import "LSBleReportCentre.h"

@@ -19,6 +19,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, strong) NSString *data;
 
+/// 同步状态 0未同步，1已同步
 @property (nonatomic, assign) NSInteger sync;
 
 @property (nonatomic, assign) BraceletReceiveDataType dataType;

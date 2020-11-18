@@ -93,7 +93,7 @@ typedef NS_ENUM(NSUInteger, LSEHistoryDataSyncFlag)
 //检测蓝牙设备的连接状态
 - (void)onDeviceConnectStateChange:(BluetoothConnectState)connectState broadcastId:(NSString *)broadcastId;
 
-- (void)onDeviceConnectStateChange:(BluetoothConnectState)connectState device:(Device *)device;
+//- (void)onDeviceConnectStateChange:(BluetoothConnectState)connectState device:(Device *)device;
 
 //固件升级百分比
 - (void)deviceComponentOtaUpgradePercent:(NSInteger )percent;

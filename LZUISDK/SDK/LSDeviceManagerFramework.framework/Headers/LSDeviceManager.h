@@ -388,14 +388,11 @@ typedef void(^DeviceConnectLogBlock)(NSString *deviceId);
  */
 - (void)checkPedometerPermisson;
 
-/*
- * 退出登录时调用一次
- */
+/// 退出登录时/切换账号时调用一次
 - (void)logout;
 
-/*
- * 登录时调用一次
- */
+/// 登录成功后调用
+/// @param userId userId
 - (void)loginWithUserId:(NSString *)userId;
 
 /**
@@ -456,6 +453,13 @@ typedef void(^DeviceConnectLogBlock)(NSString *deviceId);
 /// 获取当前版本号
 - (NSString *)getVersion;
 
+/// 日志上报
+- (void)uploadFile;
+
+/// 日志上报设置项
+/// @param enablePrint YES允许在控制台输出log
+/// @param enableWrite YES允许写入日志文件
+- (void)enablePrint:(BOOL)enablePrint enableWriteToFile:(BOOL)enableWrite;
 @end
 
 

@@ -13,8 +13,12 @@
 #import "SportHeartRateData.h"
 #import "LSBaseSportData.h"
 #import "RunningCaloriesData.h"
+#import "BraceletReceiveDataState.h"
 
 NS_ASSUME_NONNULL_BEGIN
+
+//同步回调 成功YES 失败NO
+typedef void(^SyncResultBlock)(BOOL result);
 
 @interface LSBraceletSyncDataManager : NSObject
 
@@ -22,31 +26,31 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// 同步手环步数数据
 /// @param walkingDatas models
-- (void)syncBindStep:(NSArray <WalkingData *> *)walkingDatas;
+- (void)syncBindStep:(NSArray <WalkingData *> *)walkingDatas block:(SyncResultBlock)result;
 
 /// 同步睡眠数据
 /// @param sleepingDatas models
-- (void)syncSleepData:(NSArray <SleepingData *> *)sleepingDatas;
+- (void)syncSleepData:(NSArray <SleepingData *> *)sleepingDatas block:(SyncResultBlock)result;
 
 /// 同步常规心率数据
 /// @param heartRateDatas models
-- (void)syncHeartRateData:(NSArray <HeartRateData *> *)heartRateDatas;
+- (void)syncHeartRateData:(NSArray <HeartRateData *> *)heartRateDatas block:(SyncResultBlock)result;
 
 /// 同步运动心率数据
 /// @param sportHeartRateDatas models
-- (void)syncSportHeartRateData:(NSArray <SportHeartRateData *> *)sportHeartRateDatas;
+- (void)syncSportHeartRateData:(NSArray <SportHeartRateData *> *)sportHeartRateDatas block:(SyncResultBlock)result;
 
 /// 同步有氧运动数据
 /// @param oxSportDatas models
-- (void)syncOxSportData:(NSArray <LSBaseSportData *> *)oxSportDatas;
+- (void)syncOxSportData:(NSArray <LSBaseSportData *> *)oxSportDatas block:(SyncResultBlock)result;
 
 /// 同步运动数据
 /// @param sportDatas models
-- (void)syncSportData:(NSArray <LSBaseSportData *> *)sportDatas;
+- (void)syncSportData:(NSArray <LSBaseSportData *> *)sportDatas dataType:(BraceletReceiveDataType)dataType block:(SyncResultBlock)result;
 
 /// 同步运动卡路里数据
 /// @param calories models
-- (void)syncRunCaloriesData:(NSArray <RunningCaloriesData *> *)calories;
+- (void)syncRunCaloriesData:(NSArray <RunningCaloriesData *> *)calories block:(SyncResultBlock)result;
 
 @end
 

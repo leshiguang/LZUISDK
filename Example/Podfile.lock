@@ -1,7 +1,11 @@
 PODS:
   - IQKeyboardManager (6.5.6)
+  - Logan (1.2.7):
+    - Logan/mbedtls (= 1.2.7)
+  - Logan/mbedtls (1.2.7)
   - LZUISDK (0.1.1):
     - IQKeyboardManager
+    - Logan (~> 1.2.5)
     - LZUISDK/LSAuthorization (= 0.1.1)
     - LZUISDK/LSBluetooth (= 0.1.1)
     - LZUISDK/LSBluetoothUI_iOS (= 0.1.1)
@@ -13,30 +17,35 @@ PODS:
     - YYModel
   - LZUISDK/LSAuthorization (0.1.1):
     - IQKeyboardManager
+    - Logan (~> 1.2.5)
     - Masonry
     - MBProgressHUD
     - SDWebImage
     - YYModel
   - LZUISDK/LSBluetooth (0.1.1):
     - IQKeyboardManager
+    - Logan (~> 1.2.5)
     - Masonry
     - MBProgressHUD
     - SDWebImage
     - YYModel
   - LZUISDK/LSBluetoothUI_iOS (0.1.1):
     - IQKeyboardManager
+    - Logan (~> 1.2.5)
     - Masonry
     - MBProgressHUD
     - SDWebImage
     - YYModel
   - LZUISDK/LSDeviceManagerFramework (0.1.1):
     - IQKeyboardManager
+    - Logan (~> 1.2.5)
     - Masonry
     - MBProgressHUD
     - SDWebImage
     - YYModel
   - LZUISDK/NetWork (0.1.1):
     - IQKeyboardManager
+    - Logan (~> 1.2.5)
     - Masonry
     - MBProgressHUD
     - SDWebImage
@@ -54,6 +63,7 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - IQKeyboardManager
+    - Logan
     - Masonry
     - MBProgressHUD
     - SDWebImage
@@ -65,7 +75,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   IQKeyboardManager: 2a6e97afdafc7becf0cb17a9a8d795e3a980717f
-  LZUISDK: 65e5fc1919020c1e5f8497a6f253018c427d64e5
+  Logan: d7e508f88d596b186e9cdcc0cf35b45c89bbc22f
+  LZUISDK: cd8ae43096fec72078b1d5edccac2b5310ef3fff
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
   SDWebImage: b69257f4ab14e9b6a2ef53e910fdf914d8f757c1

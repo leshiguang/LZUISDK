@@ -14,6 +14,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface LSDeviceManager(Sync)
 
+
+/// 从服务器同步设备信息
+/// @param completion 同步结果回调
 -(void)syncToServerCompletion:(void(^)(int code,NSString *msg))completion;
 
 

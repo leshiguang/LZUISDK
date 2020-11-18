@@ -19,8 +19,6 @@
 -(void)deleteDeviceUserWithUserId:(NSNumber *)userId;
 //获取已设备绑定状态列表
 -(NSArray <DeviceUser*>*)getDeviceUserListWithUserId:(NSNumber *)userId;
-//获取设备历史绑定状态列表
--(NSArray <DeviceUser*>*)getHistoryDeviceUserListWithUserId:(NSString *)userId;
 
 -(DeviceUser*)deviceUserWithDictionary:(NSDictionary*)dic;
 //获取未同步的设备状态

@@ -95,11 +95,8 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param completion 已绑定的设备列表回调
 - (void)getBoundDevices:(NSNumber *)userId Completion:(void(^)(int code,NSString *msg,NSArray <Device *>*deviceList))completion;
 
-/**
- *  获取已绑定的设备列表(同步方式)
- *
- *  @param userId 用户id
- */
+/// 获取已绑定的设备列表(同步方式)
+/// @param userId userId 用户id
 - (NSArray *)getBoundDevices:(NSNumber *)userId;
 
 - (void)refreshDevices;

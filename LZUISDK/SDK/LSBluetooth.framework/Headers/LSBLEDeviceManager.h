@@ -161,7 +161,7 @@ typedef void(^ConnectStatusBlock)(NSString *deviceId);
 - (void) setDispatchQueue:(dispatch_queue_t)dispatchQueue;
 
 //版本V2.0.0新增接口，设置是否允许输出log调试信息
-- (void) setDebugModeWithPermissions:(NSString *)key;
+//- (void) setDebugModeWithPermissions:(NSString *)key;
 
 #pragma mark A5、A4/Wechat
 
@@ -571,7 +571,5 @@ typedef void(^ConnectStatusBlock)(NSString *deviceId);
 - (void)scanWifi:(LSDeviceInfo *)deviceInfo callback:(WriteCallback)callback;
 
 - (void)connectWifi:(LSDeviceInfo *)deviceInfo bssid:(NSString *)bssid password:(NSString *)password callback:(WriteCallback)callback;
-
-//- (void)connectA6ProtocolDevice:(LSDeviceInfo *)deviceInfo;
  
 @end
