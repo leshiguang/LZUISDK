@@ -97,7 +97,8 @@ typedef NS_ENUM(NSInteger, LSBaseRequestType) {
 
 -(void)generateRequestToken;
 
--(void)appendRequestId:(NSString *) requestId;
+- (void)appendRequestId:(NSString *) requestId;
+- (void)appendRequestAccessToken;
 
 -(NSString *) mergeUrlParameters;
 #pragma mark - 公共参数, add by huowang, 20170215
