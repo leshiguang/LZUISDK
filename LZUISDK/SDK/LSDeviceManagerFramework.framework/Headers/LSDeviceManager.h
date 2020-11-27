@@ -350,7 +350,7 @@ typedef void(^DeviceConnectLogBlock)(NSString *deviceId);
 @property (nonatomic,strong)    NSMutableArray* managerDelegates;
 @property(nonatomic,strong)     NSMutableSet *stateDic;
 @property(nonatomic,strong)     NSMutableDictionary *dic;
-@property (nonatomic,strong)    NSMutableArray <NSString *>*DeviceList;
+//@property (nonatomic,strong)    NSMutableArray <NSString *>*DeviceList;
 @property (nonatomic,strong)    Device *currentDevice;
 @property(nonatomic,assign)     BOOL isSynM7;
 @property(nonatomic,strong)     NSTimer *autoSynM7Timer;

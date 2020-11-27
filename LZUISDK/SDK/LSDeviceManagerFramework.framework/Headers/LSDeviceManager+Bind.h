@@ -11,35 +11,12 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-
-
 @interface LSDeviceManager(Bind)<LSBindDelegate,LSBleDataReceiveDelegate>
 
-
-/**
- 从缓存获取指定产品类型的产品列表
- 
- @param category 产品类别
- @param completion 回调
- */
-- (void)getProductInfoListFromCacheForCategoryType:(LSEProductCategory)category completion:(LSEProductInfoBlock)completion;
-
-/**
- 获取指定产品类型的产品列表
- 
- @param category 产品类别
- @param completion 回调
- */
-- (void)getProductInfoListForCategoryType:(LSEProductCategory)category completion:(LSEProductInfoBlock)completion;
+/// 获取产品信息
+- (NSArray <LSEProductInfo *> *)getProductInfoListAry;
 
 - (void)applyDeviceIdWithInfo:(LSEApplyDeviceIdInfo *)deviceInfo completion:(void(^)(int code, NSString *msg, NSString *deviceId, NSString *mac))completion;
-
-- (NSArray *)cachedProductInfoListForCategoryType:(LSEProductCategory)category;
-
-- (void)saveProductInfoListForCategoryType:(LSEProductCategory)category productInfoList:(NSDictionary *)productInfoDic;
-
-- (NSArray<LSEProductInfo *> *)productInfoListFormDictArray:(NSArray<NSDictionary *> *)dictArray;
-
 
 /**
  * 仅绑定设备时使用，其它时候不要用
@@ -56,13 +33,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)reSearchDevice;
 
-
 /**
  *  绑定手环
  *
  */
 - (void)pairDevice:(LSEDeviceInfo *)deviceInfo;
-
 
 /// 用户绑定手环校验码
 /// @param code 校验码

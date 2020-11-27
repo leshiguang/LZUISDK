@@ -1,0 +1,657 @@
+{
+    "code":200,
+    "msg":"成功",
+    "data":[
+        {
+            "productType":1,
+            "productTypeName":"手环",
+            "highlightImageUrl":"https://files.lifesense.com/other/20191023/616d4809467a469ab92e3674f62a97b1.png",
+            "noHighlightImageUrl":"https://files.lifesense.com/other/20191023/ac686814aa6744af9bb908e6263f28da.png",
+            "iotDisplayProducts":[
+                {
+                    "displayProductId":5,
+                    "name":"乐心手环 5S",
+                    "imageUrl":"https://files.lifesense.com/other/20191107/ac0c2bcac1e04cb29587e155943e3c45.png",
+                    "productTypeCode":1,
+                    "defaultBindMode":3,
+                    "factoryProducts":[
+                        {
+                            "model":"LS431-B3",
+                            "productTypeCode":"04",
+                            "communicationType":"4",
+                            "transferProtocal":"A5",
+                            "bluetoothBroadcastName":"LS Band 5S",
+                            "randomCode":true,
+                            "name":"乐心手环 5S"
+                        },
+                        {
+                            "model":"LS431-B3001",
+                            "productTypeCode":"04",
+                            "communicationType":"4",
+                            "transferProtocal":"A5",
+                            "bluetoothBroadcastName":"LS Band 5S",
+                            "randomCode":true,
+                            "name":"Lifesense Band 5S"
+                        },
+                        {
+                            "model":"LS431-B3003",
+                            "productTypeCode":"04",
+                            "communicationType":"4",
+                            "transferProtocal":"A5",
+                            "bluetoothBroadcastName":"LS Band 5S",
+                            "randomCode":true,
+                            "name":"乐心手环 5S"
+                        },
+                        {
+                            "model":"LS431-B3006",
+                            "productTypeCode":"04",
+                            "communicationType":"4",
+                            "transferProtocal":"A5",
+                            "bluetoothBroadcastName":"5S B.Duck",
+                            "randomCode":true,
+                            "name":"乐心手环 5S B.Duck"
+                        }
+                    ]
+                },
+                {
+                    "displayProductId":28,
+                    "name":"Mambo HR 2",
+                    "imageUrl":"https://files.lifesense.com/other/20191107/2db92d53da1743ffb22b9fad11b024f8.png",
+                    "productTypeCode":1,
+                    "defaultBindMode":3,
+                    "factoryProducts":[
+                        {
+                            "model":"LS431-B7",
+                            "productTypeCode":"04",
+                            "communicationType":"4",
+                            "transferProtocal":"A5",
+                            "bluetoothBroadcastName":"mambo HR 2",
+                            "randomCode":true,
+                            "name":"乐心手环 Mambo HR 2"
+                        }
+                    ]
+                },
+                {
+                    "displayProductId":67,
+                    "name":"乐心手环 HR3",
+                    "imageUrl":"https://files.lifesense.com/other/20200728/f4b7cdbe30334b45a1e7b380254f7360.png",
+                    "productTypeCode":1,
+                    "defaultBindMode":3,
+                    "factoryProducts":[
+                        {
+                            "model":"LS431-B016",
+                            "productTypeCode":"04",
+                            "communicationType":"4",
+                            "transferProtocal":"A5",
+                            "bluetoothBroadcastName":"mambo HR 2",
+                            "randomCode":true
+                        }
+                    ]
+                },
+                {
+                    "displayProductId":12,
+                    "name":"乐心手环 5",
+                    "imageUrl":"https://files.lifesense.com/other/20191107/7b803a3ef14044bb8a7d6181b1db976e.png",
+                    "productTypeCode":1,
+                    "defaultBindMode":3,
+                    "factoryProducts":[
+                        {
+                            "model":"LS431-B",
+                            "productTypeCode":"04",
+                            "communicationType":"4",
+                            "transferProtocal":"A5",
+                            "bluetoothBroadcastName":"LS Band 5",
+                            "randomCode":true,
+                            "name":"乐心手环 5"
+                        },
+                        {
+                            "model":"LS431-B002",
+                            "productTypeCode":"04",
+                            "communicationType":"4",
+                            "transferProtocal":"A5",
+                            "bluetoothBroadcastName":"LS Band 5",
+                            "randomCode":true,
+                            "name":"Lifesense Verbena"
+                        },
+                        {
+                            "model":"LS431-B2",
+                            "productTypeCode":"04",
+                            "communicationType":"4",
+                            "transferProtocal":"A5",
+                            "bluetoothBroadcastName":"LS Band 5",
+                            "randomCode":true,
+                            "name":"乐心手环 5"
+                        },
+                        {
+                            "model":"LS431-B-001",
+                            "productTypeCode":"04",
+                            "communicationType":"4",
+                            "transferProtocal":"A5",
+                            "bluetoothBroadcastName":"LS Band 5",
+                            "randomCode":true,
+                            "name":"樂心手環 5"
+                        }
+                    ]
+                },
+                {
+                    "displayProductId":11,
+                    "name":"乐心手环 3",
+                    "imageUrl":"https://files.lifesense.com/other/20191107/5867aa4671154faaa3afca4ff6522474.png",
+                    "productTypeCode":1,
+                    "defaultBindMode":3,
+                    "factoryProducts":[
+                        {
+                            "model":"LS428-B",
+                            "productTypeCode":"04",
+                            "communicationType":"4",
+                            "transferProtocal":"A5",
+                            "bluetoothBroadcastName":"LS band 3",
+                            "randomCode":true,
+                            "name":"乐心手环 3"
+                        },
+                        {
+                            "model":"LS428-B002",
+                            "productTypeCode":"04",
+                            "communicationType":"4",
+                            "transferProtocal":"A5",
+                            "bluetoothBroadcastName":"LS band 3",
+                            "randomCode":true,
+                            "name":"Lifesense Band 3"
+                        }
+                    ]
+                },
+                {
+                    "displayProductId":30,
+                    "name":"Mambo",
+                    "imageUrl":"https://files.lifesense.com/other/20191107/c7f32ca119924ddb9937c22c6da2844c.png",
+                    "productTypeCode":1,
+                    "defaultBindMode":2,
+                    "factoryProducts":[
+                        {
+                            "model":"LS421-B",
+                            "productTypeCode":"04",
+                            "communicationType":"4",
+                            "transferProtocal":"A5",
+                            "bluetoothBroadcastName":"My Mambo",
+                            "randomCode":false,
+                            "configureManne":0,
+                            "name":"乐心手环 Mambo"
+                        },
+                        {
+                            "model":"LS405",
+                            "productTypeCode":"04",
+                            "communicationType":"4",
+                            "transferProtocal":"Wechat",
+                            "bluetoothBroadcastName":"My Mambo",
+                            "randomCode":false,
+                            "configureManne":0,
+                            "name":"乐心手环 Mambo"
+                        },
+                        {
+                            "model":"LS421-F001",
+                            "productTypeCode":"04",
+                            "communicationType":"4",
+                            "transferProtocal":"A5",
+                            "bluetoothBroadcastName":"My Mambo",
+                            "randomCode":false,
+                            "name":"Mambo"
+                        }
+                    ]
+                },
+                {
+                    "displayProductId":7,
+                    "name":"其他乐心手环",
+                    "imageUrl":"https://files.lifesense.com/other/20191107/f32e0771e1e741fca3dd9476b928be24.png",
+                    "productTypeCode":1,
+                    "defaultBindMode":2,
+                    "factoryProducts":[
+                        {
+                            "model":"LS415-F",
+                            "productTypeCode":"04",
+                            "communicationType":"4",
+                            "transferProtocal":"A5",
+                            "bluetoothBroadcastName":"mambo watch",
+                            "randomCode":false,
+                            "configureManne":0,
+                            "name":"Mambo Watch"
+                        },
+                        {
+                            "model":"LS415-B",
+                            "productTypeCode":"04",
+                            "communicationType":"4",
+                            "transferProtocal":"A5",
+                            "bluetoothBroadcastName":"mambo watch",
+                            "randomCode":false,
+                            "configureManne":0,
+                            "name":"乐心手表 Mambo Watch"
+                        },
+                        {
+                            "model":"LS410",
+                            "productTypeCode":"04",
+                            "communicationType":"4",
+                            "transferProtocal":"Wechat",
+                            "bluetoothBroadcastName":"BonBonC",
+                            "randomCode":false,
+                            "configureManne":0,
+                            "name":"乐心手环 BonBonC"
+                        },
+                        {
+                            "model":"LS407",
+                            "productTypeCode":"04",
+                            "communicationType":"4",
+                            "transferProtocal":"Wechat",
+                            "bluetoothBroadcastName":"BonBon",
+                            "randomCode":false,
+                            "configureManne":0,
+                            "name":"乐心手环 BonBon"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "productType":2,
+            "productTypeName":"手表",
+            "highlightImageUrl":"https://files.lifesense.com/other/20191023/9b9636b9a6dc4dcb89ac5ac8fca2a5f1.png",
+            "noHighlightImageUrl":"https://files.lifesense.com/other/20191023/417dd5fb47a04e8495629db09e6dd37e.png",
+            "iotDisplayProducts":[
+                {
+                    "displayProductId":13,
+                    "name":"H1",
+                    "imageUrl":"https://files.lifesense.com/other/20191107/bcbdc040b95e4edc9912f667e2d7b7fc.png",
+                    "productTypeCode":2,
+                    "defaultBindMode":3,
+                    "factoryProducts":[
+                        {
+                            "model":"LS430-B",
+                            "productTypeCode":"04",
+                            "communicationType":"4",
+                            "transferProtocal":"A6",
+                            "bluetoothBroadcastName":"LS Watch H1",
+                            "randomCode":true,
+                            "name":"H1"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "productType":3,
+            "productTypeName":"智能秤",
+            "highlightImageUrl":"https://files.lifesense.com/other/20191023/aa058786cd364d9eb1e59f48873308a3.png",
+            "noHighlightImageUrl":"https://files.lifesense.com/other/20191023/3518e240c96f4fcab1e9e85aaf8c03d3.png",
+            "iotDisplayProducts":[
+                {
+                    "displayProductId":33,
+                    "name":"S12",
+                    "imageUrl":"https://files.lifesense.com/other/20191122/1fcd255061554db4b2e3efa09dec7f2f.png",
+                    "productTypeCode":3,
+                    "defaultBindMode":3,
+                    "factoryProducts":[
+                        {
+                            "model":"LS215-B1",
+                            "productTypeCode":"02",
+                            "communicationType":"4",
+                            "transferProtocal":"InterConnection",
+                            "bluetoothBroadcastName":"LS215-B1",
+                            "randomCode":false,
+                            "name":"乐心体脂秤 S12"
+                        }
+                    ]
+                },
+                {
+                    "displayProductId":22,
+                    "name":"S11",
+                    "imageUrl":"https://files.lifesense.com/other/20191107/7b33f96e6f2141a3ad561e031f22c918.png",
+                    "productTypeCode":3,
+                    "defaultBindMode":3,
+                    "factoryProducts":[
+                        {
+                            "model":"LS213-B1",
+                            "productTypeCode":"02",
+                            "communicationType":"4",
+                            "transferProtocal":"InterConnection",
+                            "bluetoothBroadcastName":"LS213-B1",
+                            "randomCode":false,
+                            "name":"乐心体脂秤 S11"
+                        }
+                    ]
+                },
+                {
+                    "displayProductId":21,
+                    "name":"S9",
+                    "imageUrl":"https://files.lifesense.com/other/20191107/990d4e72d2e94798ac3a1bdb1a87e049.png",
+                    "productTypeCode":3,
+                    "defaultBindMode":3,
+                    "factoryProducts":[
+                        {
+                            "model":"LS215-B",
+                            "productTypeCode":"02",
+                            "communicationType":"4",
+                            "transferProtocal":"InterConnection",
+                            "bluetoothBroadcastName":"LS215-B",
+                            "randomCode":false,
+                            "name":"乐心体脂秤 S9"
+                        }
+                    ]
+                },
+                {
+                    "displayProductId":20,
+                    "name":"S7",
+                    "imageUrl":"https://files.lifesense.com/other/20191107/e0b46f6ddb4c41b9b432223710b26f78.png",
+                    "productTypeCode":3,
+                    "defaultBindMode":1,
+                    "factoryProducts":[
+                        {
+                            "model":"LS210-F",
+                            "productTypeCode":"02",
+                            "communicationType":"2",
+                            "transferProtocal":"30指令集",
+                            "bluetoothBroadcastName":"",
+                            "configureManne":2,
+                            "name":"乐心体脂秤 S7"
+                        }
+                    ]
+                },
+                {
+                    "displayProductId":19,
+                    "name":"S5",
+                    "imageUrl":"https://files.lifesense.com/other/20191107/d9537b5f2222481aa8dc0a0db7f76fb6.png",
+                    "productTypeCode":3,
+                    "defaultBindMode":1,
+                    "factoryProducts":[
+                        {
+                            "model":"LS210-A",
+                            "productTypeCode":"02",
+                            "communicationType":"2",
+                            "transferProtocal":"30指令集",
+                            "bluetoothBroadcastName":"",
+                            "configureManne":2,
+                            "name":"乐心体脂秤 S5"
+                        },
+                        {
+                            "model":"LS210-N1",
+                            "productTypeCode":"02",
+                            "communicationType":"6",
+                            "transferProtocal":"mqtt",
+                            "bluetoothBroadcastName":"",
+                            "name":"乐心体脂称 S5"
+                        }
+                    ]
+                },
+                {
+                    "displayProductId":18,
+                    "name":"S5 mini/NaNa",
+                    "imageUrl":"https://files.lifesense.com/other/20191107/245fb239846c41008f3a7e57764c0771.png",
+                    "productTypeCode":3,
+                    "defaultBindMode":3,
+                    "factoryProducts":[
+                        {
+                            "model":"LS213-B",
+                            "productTypeCode":"02",
+                            "communicationType":"4",
+                            "transferProtocal":"InterConnection",
+                            "bluetoothBroadcastName":"LS213-B",
+                            "randomCode":false,
+                            "name":"乐心体脂秤 S5 mini/NaNa"
+                        }
+                    ]
+                },
+                {
+                    "displayProductId":68,
+                    "name":"A3-S",
+                    "imageUrl":"https://files.lifesense.com/other/20200728/41846a901afd437390171b81e852104e.png",
+                    "productTypeCode":3,
+                    "defaultBindMode":3,
+                    "factoryProducts":[
+                        {
+                            "model":"LS207-B3",
+                            "productTypeCode":"02",
+                            "communicationType":"4",
+                            "transferProtocal":"InterConnection",
+                            "bluetoothBroadcastName":"LS207-B3",
+                            "randomCode":false
+                        }
+                    ]
+                },
+                {
+                    "displayProductId":1,
+                    "name":"A1-F/LS212-B",
+                    "imageUrl":"https://files.lifesense.com/other/20191107/191a0a84408c40959348b5cb69e1b921.png",
+                    "productTypeCode":3,
+                    "defaultBindMode":3,
+                    "factoryProducts":[
+                        {
+                            "model":"LS212-B",
+                            "productTypeCode":"02",
+                            "communicationType":"4",
+                            "transferProtocal":"InterConnection",
+                            "bluetoothBroadcastName":"LS212-B",
+                            "randomCode":false,
+                            "configureManne":0,
+                            "name":"乐心体脂秤 LS212-B"
+                        }
+                    ]
+                },
+                {
+                    "displayProductId":6,
+                    "name":"其他乐心智能秤",
+                    "imageUrl":"https://files.lifesense.com/other/20191107/08a13a41d5ac4758940af2d0b32af3f3.png",
+                    "productTypeCode":3,
+                    "defaultBindMode":1,
+                    "factoryProducts":[
+                        {
+                            "model":"LS111-B",
+                            "productTypeCode":"01",
+                            "communicationType":"4",
+                            "transferProtocal":"Wechat",
+                            "bluetoothBroadcastName":"LS111-B",
+                            "randomCode":false,
+                            "configureManne":0,
+                            "name":"乐心体重秤 A4"
+                        },
+                        {
+                            "model":"LS207-B",
+                            "productTypeCode":"02",
+                            "communicationType":"4",
+                            "transferProtocal":"Wechat",
+                            "bluetoothBroadcastName":"LS207-B",
+                            "randomCode":false,
+                            "configureManne":0,
+                            "name":"乐心体脂秤 A3-F/V5"
+                        },
+                        {
+                            "model":"LS207-B1",
+                            "productTypeCode":"02",
+                            "communicationType":"4",
+                            "transferProtocal":"Wechat",
+                            "bluetoothBroadcastName":"LS207-B1",
+                            "randomCode":false,
+                            "name":"乐心体脂秤 V5"
+                        },
+                        {
+                            "model":"LS106-C",
+                            "productTypeCode":"01",
+                            "communicationType":"4",
+                            "transferProtocal":"Wechat",
+                            "bluetoothBroadcastName":"LS106-C",
+                            "randomCode":false,
+                            "configureManne":0,
+                            "name":"乐心体重秤 A3（LCD版）"
+                        },
+                        {
+                            "model":"LS109-F",
+                            "productTypeCode":"01",
+                            "communicationType":"2",
+                            "transferProtocal":"30指令集",
+                            "bluetoothBroadcastName":"",
+                            "configureManne":0,
+                            "name":"乐心体重秤 Q3"
+                        },
+                        {
+                            "model":"LS202-B",
+                            "productTypeCode":"02",
+                            "communicationType":"4",
+                            "transferProtocal":"Wechat",
+                            "bluetoothBroadcastName":"LS202-B",
+                            "randomCode":false,
+                            "configureManne":0,
+                            "name":"乐心体脂秤 LS202"
+                        },
+                        {
+                            "model":"LS207",
+                            "productTypeCode":"02",
+                            "communicationType":"4",
+                            "transferProtocal":"Wechat",
+                            "bluetoothBroadcastName":"LS207",
+                            "randomCode":false,
+                            "configureManne":0
+                        },
+                        {
+                            "model":"GBF-2008-BF1",
+                            "productTypeCode":"02",
+                            "communicationType":"4",
+                            "transferProtocal":"InterConnection",
+                            "bluetoothBroadcastName":"GBF-2008-BF1",
+                            "randomCode":false,
+                            "name":"S30"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "productType":4,
+            "productTypeName":"血压计",
+            "highlightImageUrl":"https://files.lifesense.com/other/20191023/302c6e1e0f7c4afc85eee9c3f097d58b.png",
+            "noHighlightImageUrl":"https://files.lifesense.com/other/20191023/92fc9da99ec64274a33b4c09a1600480.png",
+            "iotDisplayProducts":[
+                {
+                    "displayProductId":69,
+                    "name":"i9",
+                    "imageUrl":"https://files.lifesense.com/other/20200731/b724ddd50826410fb5b0ca6f4d84508a.jpg",
+                    "productTypeCode":4,
+                    "defaultBindMode":3,
+                    "factoryProducts":[
+                        {
+                            "model":"LS818-B-004",
+                            "productTypeCode":"08",
+                            "communicationType":"4",
+                            "transferProtocal":"InterConnection",
+                            "bluetoothBroadcastName":"LS818-B-004",
+                            "randomCode":false
+                        }
+                    ]
+                },
+                {
+                    "displayProductId":24,
+                    "name":"i7 NB-IoT版",
+                    "imageUrl":"https://files.lifesense.com/other/20191107/e2433e99faf24a09abf669a1ca6fb989.png",
+                    "productTypeCode":4,
+                    "defaultBindMode":1,
+                    "factoryProducts":[
+                        {
+                            "model":"LS818-NB",
+                            "productTypeCode":"08",
+                            "communicationType":"6",
+                            "transferProtocal":"https",
+                            "bluetoothBroadcastName":"",
+                            "name":"乐心双管血压计i7 NB-IoT版"
+                        }
+                    ]
+                },
+                {
+                    "displayProductId":26,
+                    "name":"i7 蓝牙版",
+                    "imageUrl":"https://files.lifesense.com/other/20191107/7bd319e38d544a2ea4f7d96141361e83.png",
+                    "productTypeCode":4,
+                    "defaultBindMode":3,
+                    "factoryProducts":[
+                        {
+                            "model":"LS818-B",
+                            "productTypeCode":"08",
+                            "communicationType":"4",
+                            "transferProtocal":"InterConnection",
+                            "bluetoothBroadcastName":"LS818-B",
+                            "randomCode":false,
+                            "name":"乐心双管血压计i7 蓝牙版"
+                        }
+                    ]
+                },
+                {
+                    "displayProductId":25,
+                    "name":"i7 Wi-Fi版",
+                    "imageUrl":"https://files.lifesense.com/other/20191107/2dcf8b87f6a74c1a855685ee7e7094e4.png",
+                    "productTypeCode":4,
+                    "defaultBindMode":1,
+                    "factoryProducts":[
+                        {
+                            "model":"LS818-F",
+                            "productTypeCode":"08",
+                            "communicationType":"2",
+                            "transferProtocal":"",
+                            "bluetoothBroadcastName":"",
+                            "configureManne":2,
+                            "name":"I5s  血压计"
+                        },
+                        {
+                            "model":"LS805-A",
+                            "productTypeCode":"08",
+                            "communicationType":"2",
+                            "transferProtocal":"30指令集",
+                            "bluetoothBroadcastName":"",
+                            "configureManne":0,
+                            "name":"乐心血压计 i5 WiFi款"
+                        },
+                        {
+                            "model":"LS818-F2",
+                            "productTypeCode":"08",
+                            "communicationType":"2",
+                            "transferProtocal":"https",
+                            "bluetoothBroadcastName":"",
+                            "configureManne":6,
+                            "name":"乐心双管血压计i7 Wi-Fi版"
+                        }
+                    ]
+                },
+                {
+                    "displayProductId":23,
+                    "name":"i5/i7 GPRS",
+                    "imageUrl":"https://files.lifesense.com/other/20191107/d5f9c9d68b824bffb544a73e84c61611.png",
+                    "productTypeCode":4,
+                    "defaultBindMode":1,
+                    "factoryProducts":[
+                        {
+                            "model":"LS805-H",
+                            "productTypeCode":"08",
+                            "communicationType":"3",
+                            "transferProtocal":"30指令集",
+                            "bluetoothBroadcastName":"",
+                            "configureManne":0,
+                            "name":"乐心血压计 i5/i7 GPRS"
+                        }
+                    ]
+                },
+                {
+                    "displayProductId":31,
+                    "name":"BLP 1597",
+                    "imageUrl":"https://files.lifesense.com/other/20191107/4e4c0ea1c64144af993f4c44b0e44c19.png",
+                    "productTypeCode":4,
+                    "defaultBindMode":4,
+                    "factoryProducts":[
+                        {
+                            "model":"01597B",
+                            "productTypeCode":"08",
+                            "communicationType":"4",
+                            "transferProtocal":"Standard",
+                            "bluetoothBroadcastName":"1597B",
+                            "randomCode":false,
+                            "configureManne":0,
+                            "name":"BLP 1597"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

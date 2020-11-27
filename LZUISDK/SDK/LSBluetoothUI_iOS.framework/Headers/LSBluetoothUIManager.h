@@ -33,8 +33,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 #pragma mark - 调用乐智界面Api
 
-/// 设备列表页面
-- (UIViewController *)lsPageDeviceList;
 /// 我的设备页面
 - (UIViewController *)lsPageBindDeviceList;
 /// 打开体重页面
