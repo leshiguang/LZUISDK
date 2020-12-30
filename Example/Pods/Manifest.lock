@@ -3,55 +3,48 @@ PODS:
   - Logan (1.2.7):
     - Logan/mbedtls (= 1.2.7)
   - Logan/mbedtls (1.2.7)
-  - LZUISDK (0.1.1):
+  - LZUISDK (0.1.9):
     - IQKeyboardManager
     - Logan (~> 1.2.5)
-    - LZUISDK/LSAuthorization (= 0.1.1)
-    - LZUISDK/LSBluetooth (= 0.1.1)
-    - LZUISDK/LSBluetoothUI_iOS (= 0.1.1)
-    - LZUISDK/LSDeviceManagerFramework (= 0.1.1)
-    - LZUISDK/NetWork (= 0.1.1)
+    - LZUISDK/LSAuthorization (= 0.1.9)
+    - LZUISDK/LSBluetooth (= 0.1.9)
+    - LZUISDK/LSBluetoothUI_iOS (= 0.1.9)
+    - LZUISDK/LSDeviceManagerFramework (= 0.1.9)
+    - LZUISDK/NetWork (= 0.1.9)
     - Masonry
-    - MBProgressHUD
     - SDWebImage
     - YYModel
-  - LZUISDK/LSAuthorization (0.1.1):
+  - LZUISDK/LSAuthorization (0.1.9):
     - IQKeyboardManager
     - Logan (~> 1.2.5)
     - Masonry
-    - MBProgressHUD
     - SDWebImage
     - YYModel
-  - LZUISDK/LSBluetooth (0.1.1):
+  - LZUISDK/LSBluetooth (0.1.9):
     - IQKeyboardManager
     - Logan (~> 1.2.5)
     - Masonry
-    - MBProgressHUD
     - SDWebImage
     - YYModel
-  - LZUISDK/LSBluetoothUI_iOS (0.1.1):
+  - LZUISDK/LSBluetoothUI_iOS (0.1.9):
     - IQKeyboardManager
     - Logan (~> 1.2.5)
     - Masonry
-    - MBProgressHUD
     - SDWebImage
     - YYModel
-  - LZUISDK/LSDeviceManagerFramework (0.1.1):
+  - LZUISDK/LSDeviceManagerFramework (0.1.9):
     - IQKeyboardManager
     - Logan (~> 1.2.5)
     - Masonry
-    - MBProgressHUD
     - SDWebImage
     - YYModel
-  - LZUISDK/NetWork (0.1.1):
+  - LZUISDK/NetWork (0.1.9):
     - IQKeyboardManager
     - Logan (~> 1.2.5)
     - Masonry
-    - MBProgressHUD
     - SDWebImage
     - YYModel
   - Masonry (1.1.0)
-  - MBProgressHUD (1.2.0)
   - SDWebImage (5.9.4):
     - SDWebImage/Core (= 5.9.4)
   - SDWebImage/Core (5.9.4)
@@ -65,7 +58,6 @@ SPEC REPOS:
     - IQKeyboardManager
     - Logan
     - Masonry
-    - MBProgressHUD
     - SDWebImage
     - YYModel
 
@@ -76,9 +68,8 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   IQKeyboardManager: 2a6e97afdafc7becf0cb17a9a8d795e3a980717f
   Logan: d7e508f88d596b186e9cdcc0cf35b45c89bbc22f
-  LZUISDK: cd8ae43096fec72078b1d5edccac2b5310ef3fff
+  LZUISDK: d3b693353979f56e14516593e1e5fbfa0ad8d8a8
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
   SDWebImage: b69257f4ab14e9b6a2ef53e910fdf914d8f757c1
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
