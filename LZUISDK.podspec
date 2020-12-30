@@ -58,7 +58,6 @@ TODO: Add long description of the pod here.
   
   s.dependency 'IQKeyboardManager'
   s.dependency 'Masonry'
-  s.dependency 'MBProgressHUD'
   s.dependency 'SDWebImage'
   s.dependency 'YYModel'
   s.dependency 'Logan', '~> 1.2.5'
