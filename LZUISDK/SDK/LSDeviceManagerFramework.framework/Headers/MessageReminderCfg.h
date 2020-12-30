@@ -20,7 +20,7 @@
 @end
 
 @interface MessageReminderCfgAry : NSObject
-/// 设置的运动项
+
 @property(nonatomic, strong) NSArray<MessageReminderCfg *> *items;
 
 @end

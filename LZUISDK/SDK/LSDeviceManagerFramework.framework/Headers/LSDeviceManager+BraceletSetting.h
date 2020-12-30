@@ -9,6 +9,10 @@
 #import <Foundation/Foundation.h>
 #import "LSDeviceManager.h"
 #import "LSBraceletSettingState.h"
+ 
+#import "MessageReminderCfg.h"
+#import "LZEventRemindCfg.h"
+
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -24,6 +28,13 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param completion 设置回调
 - (void)setBraceletWithData:(id)data deviceId:(NSString *)deviceId setType:(LSBraceletSettingStateType)setType completion:(Completion)completion;
 
+
+// 通过枚举类型获取对应的设置项对象
+// 设置项class                                 枚举类型
+// NSArray <MessageReminderCfg *> *cfgAry     LSMsgReminderSetType
+// HeartrateSwitchCfg                         LSHeartRateMeatureSetType
+// LSEDialModelCfg                            LSDialTypeSetType
+// StepTargetCfg                              LSStepTargetSetType
 
 /// 获取手环设置项
 /// @param deviceId 设备Id
@@ -45,16 +56,6 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param completion 回调
 - (void)setSwimmingInfo:(NSString *)deviceId cfg:(LSESwimmingInfoCfg *)cfg completion:(Completion)completion;
 
-/// 设置步数目标
-/// @param deviceId 设备id
-/// @param step 步数目标
-/// @param completion 回调
-- (void)setStepTarget:(NSString *)deviceId step:(StepTargetCfg *)step completion:(Completion)completion;
-
-/// 查询步数目标
-/// @param deviceId 设备id
-- (StepTargetCfg *)getStepTarget:(NSString *)deviceId;
-
 /// 运动项内容设置
 /// @param deviceId 设备Id
 /// @param items 设置的运动项内容 （see: LSSportItemSwitch）
@@ -69,11 +70,11 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param deviceId 设备id
 /// @param config 鼓励设置模型
 /// @param completion 回调
-- (void)setEncourage:(NSString *)deviceId config:(EncourageCfg *)config completion:(Completion)completion;
+- (void)setEncourage:(NSString *)deviceId config:(StepTargetCfg *)config completion:(Completion)completion;
 
 /// 步数、卡路里、距离目标设置
 /// @param deviceId 设备id
-- (EncourageCfg *)getEncourage:(NSString *)deviceId;
+- (StepTargetCfg *)getEncourage:(NSString *)deviceId;
 
 /// 久坐提醒设置
 /// @param deviceId 设备id
@@ -234,7 +235,11 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param completion 回调
 - (void)setSportsInfo:(NSString *)deviceId cfg:(LSESportsInfoCfg *)cfg completion:(Completion)completion;
 
-
+/// 添加事件提醒
+/// @param deviceId 设备Id
+/// @param cfg model
+/// @param completion 回调
+- (void)setEventRemind:(NSString *)deviceId eventRemind:(LZEventRemindCfg *)cfg completion:(Completion)completion;
 
 
 
@@ -331,11 +336,10 @@ NS_ASSUME_NONNULL_BEGIN
 //
 //
 //
-///**
-// *  添加事件提醒信息
-// *
-// */
-//- (void)addEventRemind:(NSString *)deviceId eventRemind:(AlarmClockCfg *)eventRemind completion:(Completion)completion;
+
+
+
+
 //
 ///**
 // 存储设置  3.7.4 add by tj ,仅仅只是暴露接口

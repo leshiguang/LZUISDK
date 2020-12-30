@@ -105,6 +105,7 @@
 #import "LSESwimmingInfoCfg.h"
 #import "LSEWeatherData.h"
 #import "LSSportItemsCfg.h"
+#import "LZEventRemindCfg.h"
 #import "MessageReminderCfg.h"
 #import "NightModeCfg.h"
 #import "NoDisturbModeCfg.h"

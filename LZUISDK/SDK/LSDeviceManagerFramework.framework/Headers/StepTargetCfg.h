@@ -8,9 +8,21 @@
 
 #import <Foundation/Foundation.h>
 
+//目标设置
+typedef NS_ENUM(NSUInteger, LZBraceletSportTargetType) {
+    LZBraceletSportTargetTypeUnknown,
+    LZBraceletSportTargetTypeStepNum = 1, ///< 步数
+    LZBraceletSportTargetTypeCalories, ///< 卡路里
+    LZBraceletSportTargetTypeDistance, ///< 距离
+};
+
 @interface StepTargetCfg : NSObject
 
 /// 步数
-@property(nonatomic,assign)int step;
+@property(nonatomic, assign) NSInteger step;
+
+@property(nonatomic, assign) BOOL isOpen;
+
+@property(nonatomic, assign) LZBraceletSportTargetType type;
 
 @end

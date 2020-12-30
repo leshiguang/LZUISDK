@@ -28,7 +28,7 @@ typedef NS_ENUM(NSUInteger, LSEClockType) {
 @property(nonatomic,assign) int startMin;
 /// 震动时间
 @property(nonatomic,assign) int shockTime;
-/// 闹钟名字
+/// 事件名
 @property(nonatomic, copy) NSString *label;
 /// 设置闹铃只响一次
 @property(nonatomic,assign)long long ringTime;

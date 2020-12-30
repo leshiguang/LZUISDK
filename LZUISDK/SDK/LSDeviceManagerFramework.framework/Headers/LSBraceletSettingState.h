@@ -15,7 +15,6 @@ NS_ASSUME_NONNULL_BEGIN
 typedef enum : NSUInteger {
     LSSwimmingLenghtSetType,            ///< 设置游泳池长度
     LSSportPagesSetType,                ///< 运动项设置
-    LSStepTargetSetType,                ///< 设置步数目标
     LSHeartRateMeatureSetType,          ///< 心率监测设置
     LSEncourageSetType,                 ///< 步数、卡路里、距离目标设置
     LSSedentaryInfoType,                ///< 久坐提醒设置

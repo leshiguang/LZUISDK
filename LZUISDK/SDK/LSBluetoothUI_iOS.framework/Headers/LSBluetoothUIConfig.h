@@ -10,14 +10,17 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface LSBluetoothUIAccountInfo : NSObject
-//乐智用户ID
+/// 乐智用户ID
 @property (nonatomic, strong) NSString *userId;
-//登录token
+/// 登录token
 @property(nonatomic, strong) NSString *accessToken;
-//外部token
+/// 外部token
 @property(nonatomic, strong) NSString *businessToken;
-//是否需要补充信息（新注册用户为true）
+/// 是否需要补充信息（新注册用户为true）
 @property(nonatomic) BOOL needInfo;
+/// 租户名称
+@property (nonatomic, copy) NSString *tenantName;
+
 @end
 
 @interface LSBluetoothUIUserInfo : NSObject
