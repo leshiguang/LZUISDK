@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LZUISDK'
-  s.version          = '0.2.0'
+  s.version          = '0.2.1'
   s.summary          = 'A short description of LZUISDK.'
 
 # This description is used to generate tags and improve search results.
@@ -61,6 +61,7 @@ TODO: Add long description of the pod here.
   s.dependency 'SDWebImage'
   s.dependency 'YYModel'
   s.dependency 'Logan', '~> 1.2.5'
+  s.dependency 'MJExtension'
 
 
 #  s.vendored_frameworks = 'LZUISDK/SDK/LSNetwork_iOS.framework','LZUISDK/SDK/LSNDBManager.framework','LZUISDK/SDK/LSDeviceManagerFramework.framework','LZUISDK/SDK/LSBluetoothUI_iOS.framework','LZUISDK/SDK/LSBluetooth.framework','LZUISDK/SDK/LSAuthorizationFramework.framework'

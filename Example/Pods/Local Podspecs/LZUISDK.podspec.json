@@ -1,6 +1,6 @@
 {
   "name": "LZUISDK",
-  "version": "0.1.9",
+  "version": "0.2.0",
   "summary": "A short description of LZUISDK.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/leshiguang/LZUISDK",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/leshiguang/LZUISDK.git",
-    "tag": "0.1.9"
+    "tag": "0.2.0"
   },
   "platforms": {
     "ios": "8.0"
@@ -37,6 +37,9 @@
     ],
     "Logan": [
       "~> 1.2.5"
+    ],
+    "MJExtension": [
+
     ]
   },
   "subspecs": [

@@ -3,48 +3,55 @@ PODS:
   - Logan (1.2.7):
     - Logan/mbedtls (= 1.2.7)
   - Logan/mbedtls (1.2.7)
-  - LZUISDK (0.1.9):
+  - LZUISDK (0.2.0):
     - IQKeyboardManager
     - Logan (~> 1.2.5)
-    - LZUISDK/LSAuthorization (= 0.1.9)
-    - LZUISDK/LSBluetooth (= 0.1.9)
-    - LZUISDK/LSBluetoothUI_iOS (= 0.1.9)
-    - LZUISDK/LSDeviceManagerFramework (= 0.1.9)
-    - LZUISDK/NetWork (= 0.1.9)
+    - LZUISDK/LSAuthorization (= 0.2.0)
+    - LZUISDK/LSBluetooth (= 0.2.0)
+    - LZUISDK/LSBluetoothUI_iOS (= 0.2.0)
+    - LZUISDK/LSDeviceManagerFramework (= 0.2.0)
+    - LZUISDK/NetWork (= 0.2.0)
     - Masonry
+    - MJExtension
     - SDWebImage
     - YYModel
-  - LZUISDK/LSAuthorization (0.1.9):
+  - LZUISDK/LSAuthorization (0.2.0):
     - IQKeyboardManager
     - Logan (~> 1.2.5)
     - Masonry
+    - MJExtension
     - SDWebImage
     - YYModel
-  - LZUISDK/LSBluetooth (0.1.9):
+  - LZUISDK/LSBluetooth (0.2.0):
     - IQKeyboardManager
     - Logan (~> 1.2.5)
     - Masonry
+    - MJExtension
     - SDWebImage
     - YYModel
-  - LZUISDK/LSBluetoothUI_iOS (0.1.9):
+  - LZUISDK/LSBluetoothUI_iOS (0.2.0):
     - IQKeyboardManager
     - Logan (~> 1.2.5)
     - Masonry
+    - MJExtension
     - SDWebImage
     - YYModel
-  - LZUISDK/LSDeviceManagerFramework (0.1.9):
+  - LZUISDK/LSDeviceManagerFramework (0.2.0):
     - IQKeyboardManager
     - Logan (~> 1.2.5)
     - Masonry
+    - MJExtension
     - SDWebImage
     - YYModel
-  - LZUISDK/NetWork (0.1.9):
+  - LZUISDK/NetWork (0.2.0):
     - IQKeyboardManager
     - Logan (~> 1.2.5)
     - Masonry
+    - MJExtension
     - SDWebImage
     - YYModel
   - Masonry (1.1.0)
+  - MJExtension (3.2.2)
   - SDWebImage (5.9.4):
     - SDWebImage/Core (= 5.9.4)
   - SDWebImage/Core (5.9.4)
@@ -58,6 +65,7 @@ SPEC REPOS:
     - IQKeyboardManager
     - Logan
     - Masonry
+    - MJExtension
     - SDWebImage
     - YYModel
 
@@ -68,8 +76,9 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   IQKeyboardManager: 2a6e97afdafc7becf0cb17a9a8d795e3a980717f
   Logan: d7e508f88d596b186e9cdcc0cf35b45c89bbc22f
-  LZUISDK: d3b693353979f56e14516593e1e5fbfa0ad8d8a8
+  LZUISDK: e4cfdc593806b40249488c4dc3ac50bb0ab04f45
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJExtension: d9b9c74cbdeb724c1e9ecbb157b318276e62e876
   SDWebImage: b69257f4ab14e9b6a2ef53e910fdf914d8f757c1
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
